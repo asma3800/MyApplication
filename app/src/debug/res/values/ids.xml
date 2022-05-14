@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="paper" type="id" />
+    <item name="plastic" type="id" />
+    <item name="glass" type="id" />
+    <item name="aluminum" type="id" />
+</resources>

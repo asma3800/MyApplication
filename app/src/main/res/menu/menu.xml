@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E4E0E0"
+    >
+    <group android:checkableBehavior="single" android:enabled="true">
+        <item
+            android:id="@+id/ordersDrawer"
+            android:icon="@drawable/ic_shopping"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/profileDrawer"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/logOutdrawer"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Log Out" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="snippet" type="id" />
+    <item name="option_get_place" type="id" />
+    <item name="check" type="id" />
+    <item name="paper1" type="id" />
+    <item name="plastic1" type="id" />
+    <item name="glass1" type="id" />
+    <item name="aluminum1" type="id" />
+    <item name="imageView1" type="id" />
+</resources>

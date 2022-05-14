@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="solid_waste_recycling">SOLID WASTE RECYCLING</string>
+    <string name="next">Next</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone_number">PhoneNumber</string>
+    <string name="categories">Categories</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="user_name">Username</string>
+    <string name="register">register</string>
+    <string name="login">login</string>
+    <string name="prefLoginState">loginState</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">Transform</string>
+    <string name="menu_reflow">Reflow</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+    <string name="default_info_snippet" />
+    <string name="default_info_title" />
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_activity_home1">Home1Activity</string>
+    <string name="profile">profile</string>
+    <string name="title_activity_main_screen">MainActivityScreen</string>
+
+</resources>
