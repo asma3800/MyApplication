@@ -144,7 +144,11 @@ public class Register extends AppCompatActivity {
         Pattern letter = Pattern.compile("[a-z]");
         Pattern letterC = Pattern.compile("[A-Z]");
         Pattern digit = Pattern.compile("[0-9]");
-        if (!isEmailValid(em)){
+        if (TextUtils.isEmpty(user) || TextUtils.isEmpty(em)|| TextUtils.isEmpty(pass) || TextUtils.isEmpty(repass) || TextUtils.isEmpty(ph) ) {
+            Toast.makeText(com.example.myapplication.Register.this, "Please Fill All Fields", Toast.LENGTH_SHORT).show();
+            loadingBar.dismiss();
+        }
+        else if (!isEmailValid(em)){
             Toast.makeText(com.example.myapplication.Register.this, "Your Email is Invalid", Toast.LENGTH_SHORT).show();
             loadingBar.dismiss();
         }
@@ -157,14 +161,11 @@ public class Register extends AppCompatActivity {
             Toast.makeText(com.example.myapplication.Register.this, "Your Password And Repassword Not Match ", Toast.LENGTH_SHORT).show();
             loadingBar.dismiss();
         }
-        else if (ph.length() != 10){
-            Toast.makeText(com.example.myapplication.Register.this, "Your Phone Number Should be 10 Numbers", Toast.LENGTH_SHORT).show();
+        else if (ph.length() != 10|| (!digit.matcher(ph).find())){
+            Toast.makeText(com.example.myapplication.Register.this, "Your Phone Number Should be 10 Numbers only", Toast.LENGTH_SHORT).show();
             loadingBar.dismiss();
         }
-        else if (TextUtils.isEmpty(user) || TextUtils.isEmpty(em)|| TextUtils.isEmpty(pass) || TextUtils.isEmpty(repass) || TextUtils.isEmpty(ph) ) {
-            Toast.makeText(com.example.myapplication.Register.this, "Please Fill All Fields", Toast.LENGTH_SHORT).show();
-            loadingBar.dismiss();
-        }
+
         else {
             ValidateEmailForUser(user, pass, em, ph);
         }

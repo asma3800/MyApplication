@@ -9,9 +9,9 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:src="@drawable/profile" />
+        android:layout_width="165dp"
+        android:layout_height="168dp"
+        android:src="@drawable/ic_baseline_person_pin_24" />
 
     <TextView
         android:layout_width="wrap_content"

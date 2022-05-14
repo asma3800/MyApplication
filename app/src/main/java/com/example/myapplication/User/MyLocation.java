@@ -137,7 +137,7 @@ public class MyLocation extends FragmentActivity implements OnMapReadyCallback
                             location.setLatitude(lati);
                             geocoder = new Geocoder(MyLocation.this, Locale.getDefault());
                             try {
-                                //  addresses = geocoder.getFromLocation(  lati, longi, 1);
+                                  //addresses = geocoder.getFromLocation(  19.1178963, 42.0866781, 1);
                                 addresses = geocoder.getFromLocation(  18.2416843, 42.4419994, 1);
                                 if(addresses.get(0).getFeatureName().equals("Abha") || addresses.get(0).getAdminArea().equals
                                         ("Abha Province") || addresses.get(0).getSubAdminArea().equals("Abha") ){
